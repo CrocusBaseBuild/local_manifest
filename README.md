@@ -10,7 +10,7 @@ Init the base manifest
 
 **For some reason, we need to use older manifest for now**
 
-	$ repo init -u git://github.com/wecouldcalliteven/android.git -b lineage-16.0
+	$ repo init -u https://github.com/LineageOS/android.git -b lineage-16.0
   
 Add the local manifest
 
