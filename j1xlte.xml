@@ -8,7 +8,7 @@
     <project name="Exynos3475/android_kernel_samsung_exynos3475" remote="github" revision="lineage-17.1" path="kernel/samsung/exynos3475"/>
 
     <!--Proprietary Blobs-->
-    <project name="Exynos3475/android_vendor_samsung" remote="github" revision="lineage-17.1" path="vendor/samsung"/>
+    <project name="CrocusBaseBuild/android_vendor_samsung" remote="github" revision="lineage-18.1" path="vendor/samsung"/>
 
     <!-- Toolchain -->
     <project name="Exynos3475/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="github" revision="android-7.1.2_r36" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
