@@ -1,4 +1,4 @@
-LineageOS 16.0 for Exynos3475 devices WIP
+LineageOS 18.1 for Exynos3475 devices WIP
 ------------------------------------
 
 Create directories
