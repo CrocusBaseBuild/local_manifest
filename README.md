@@ -18,7 +18,7 @@ Add the local manifest
 
 Then sync up with this command:
 
-	$ repo sync --force-sync -q
+	$ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 
 -------------
  
