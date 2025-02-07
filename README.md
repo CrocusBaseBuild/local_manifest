@@ -28,3 +28,14 @@ _Building from source_
 	$ . build/envsetup.sh
 	$ lunch lineage_DEVICE-userdebug
 	$ mka bacon
+
+-------------
+
+**If the build ends with the error "webview_intermediates/package.apk: error: failed opening zip: Invalid file."**
+---------------
+	$ cd external/chromium-webview/prebuilt/arm
+ 	$ git rev-parse --git-dir
+  	$ git config --global --add safe.directory external/chromium-webview/prebuilt/arm/
+   	$ git lfs pull
+	$ cd ../../../..
+	
