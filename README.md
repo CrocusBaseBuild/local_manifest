@@ -1,14 +1,14 @@
-LineageOS 18.1 for Exynos3475 devices WIP
+LineageOS 19.1 for Exynos3475 devices WIP
 ------------------------------------
 
 Create directories
 
-	$ mkdir lineage-18.1
-	$ cd lineage-18.1
+	$ mkdir lineage-19.1
+	$ cd lineage-19.1
 
 Init the base manifest
 
-	$ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
+	$ repo init -u https://github.com/kOtusin/android.git -b lineage-19.1 --git-lfs
   
 Add the local manifest
 
